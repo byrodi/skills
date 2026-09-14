@@ -25,6 +25,7 @@ Add the marketplace once, then install the skills you want:
 claude plugin marketplace add byrodi/skills
 claude plugin install humanizer@byrodi
 claude plugin install github-publish@byrodi
+...
 ```
 
 Inside a session the same works with `/plugin marketplace add byrodi/skills` and `/plugin install humanizer@byrodi`. Pull new commits with `claude plugin marketplace update byrodi`.
