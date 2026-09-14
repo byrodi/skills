@@ -1,0 +1,67 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "byrodi",
+  "description": "Plugin marketplace and catalog of byrodi's agent skills for Claude Code and Codex.",
+  "owner": {
+    "name": "Rodion Masalov",
+    "url": "https://github.com/byrodi"
+  },
+  "plugins": [
+    {
+      "name": "github-publish",
+      "description": "Checks a project for leaked secrets, adds the missing repository files and publishes it on GitHub.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/github-publish",
+      "source": { "source": "url", "url": "https://github.com/byrodi/github-publish.git" }
+    },
+    {
+      "name": "project-docs",
+      "description": "English project documentation in docs/ that coding agents read first and humans understand at a glance, kept in sync with the code as the agent works.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/project-docs",
+      "source": { "source": "url", "url": "https://github.com/byrodi/project-docs.git" }
+    },
+    {
+      "name": "minimal-code-discipline",
+      "description": "Keeps code changes small by reusing what exists and preferring the standard library over new dependencies.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/minimal-code-discipline",
+      "source": { "source": "url", "url": "https://github.com/byrodi/minimal-code-discipline.git" }
+    },
+    {
+      "name": "java-code-style",
+      "description": "Java code style for new and personal projects, based on Google Java Style with a Checkstyle config and design conventions.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/java-code-style",
+      "source": { "source": "url", "url": "https://github.com/byrodi/java-code-style.git" }
+    },
+    {
+      "name": "typescript-code-style",
+      "description": "TypeScript and JavaScript style based on Google TypeScript Style, with strict tsconfig, typescript-eslint and Prettier configs.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/typescript-code-style",
+      "source": { "source": "url", "url": "https://github.com/byrodi/typescript-code-style.git" }
+    },
+    {
+      "name": "chrome-devtools",
+      "description": "Agent skill that drives a real Chrome through chrome-devtools-mcp when WebFetch cannot read a page.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/chrome-devtools",
+      "source": { "source": "url", "url": "https://github.com/byrodi/chrome-devtools.git" }
+    },
+    {
+      "name": "frontend-design",
+      "description": "Light pink-plum design system for sites, web apps and desktop UI, with CSS tokens and an interactive HTML starter.",
+      "category": "design",
+      "homepage": "https://github.com/byrodi/frontend-design",
+      "source": { "source": "url", "url": "https://github.com/byrodi/frontend-design.git" }
+    },
+    {
+      "name": "humanizer",
+      "description": "Agent skill that removes signs of AI writing, bureaucratic phrasing and filler from Russian and English text.",
+      "category": "productivity",
+      "homepage": "https://github.com/byrodi/humanizer",
+      "source": { "source": "url", "url": "https://github.com/byrodi/humanizer.git" }
+    }
+  ]
+}
