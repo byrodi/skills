@@ -43,6 +43,13 @@
       "source": { "source": "url", "url": "https://github.com/byrodi/typescript-code-style.git" }
     },
     {
+      "name": "rust-code-style",
+      "description": "Rust code style for new and personal projects, based on the official Rust Style Guide, Clippy workspace lints and the Rust API Guidelines.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/rust-code-style",
+      "source": { "source": "url", "url": "https://github.com/byrodi/rust-code-style.git" }
+    },
+    {
       "name": "chrome-devtools",
       "description": "Agent skill that drives a real Chrome through chrome-devtools-mcp when WebFetch cannot read a page.",
       "category": "development",
