@@ -16,7 +16,7 @@
     },
     {
       "name": "project-docs",
-      "description": "English project documentation in docs/ that coding agents read first and humans understand at a glance, kept in sync with the code as the agent works.",
+      "description": "Human-first project docs in docs/ that GitHub, Obsidian or a docs site render as they are, kept in sync with the code as the agent works.",
       "category": "development",
       "homepage": "https://github.com/byrodi/project-docs",
       "source": { "source": "url", "url": "https://github.com/byrodi/project-docs.git" }

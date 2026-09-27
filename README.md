@@ -9,7 +9,7 @@ Every skill lives in its own repository. This one lists them and lets Claude Cod
 | Skill | What it does |
 | --- | --- |
 | [github-publish](https://github.com/byrodi/github-publish) | Checks a project for leaked secrets, adds the missing repository files and publishes it on GitHub |
-| [project-docs](https://github.com/byrodi/project-docs) | English project docs in `docs/` for agents and humans, kept in sync with the code |
+| [project-docs](https://github.com/byrodi/project-docs) | Human-first project docs in `docs/` with sections and navigation, kept in sync with the code |
 | [minimal-code-discipline](https://github.com/byrodi/minimal-code-discipline) | Keeps code changes small, reuses what exists, prefers the standard library |
 | [java-code-style](https://github.com/byrodi/java-code-style) | Google Java Style with a Checkstyle config and design conventions |
 | [typescript-code-style](https://github.com/byrodi/typescript-code-style) | Google TypeScript Style with strict tsconfig, typescript-eslint and Prettier |
