@@ -64,6 +64,13 @@
       "source": { "source": "url", "url": "https://github.com/byrodi/frontend-design.git" }
     },
     {
+      "name": "sketchdraw",
+      "description": "Hand-drawn Excalidraw-style pictures from Mermaid flowcharts, sequence diagrams and JSON UI scenes, with a skill that draws them for docs.",
+      "category": "productivity",
+      "homepage": "https://github.com/byrodi/sketchdraw",
+      "source": { "source": "url", "url": "https://github.com/byrodi/sketchdraw.git" }
+    },
+    {
       "name": "humanizer",
       "description": "Agent skill that removes signs of AI writing, bureaucratic phrasing and filler from Russian and English text.",
       "category": "productivity",
