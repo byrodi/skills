@@ -64,6 +64,13 @@
       "source": { "source": "url", "url": "https://github.com/byrodi/frontend-design.git" }
     },
     {
+      "name": "ui-gallery",
+      "description": "Agent skill that shows every state of an app's UI on one page as live iframes of the real code over a fake backend.",
+      "category": "development",
+      "homepage": "https://github.com/byrodi/ui-gallery",
+      "source": { "source": "url", "url": "https://github.com/byrodi/ui-gallery.git" }
+    },
+    {
       "name": "sketchdraw",
       "description": "Hand-drawn Excalidraw-style pictures from Mermaid flowcharts, sequence diagrams and JSON UI scenes, with a skill that draws them for docs.",
       "category": "productivity",

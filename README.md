@@ -16,6 +16,7 @@ Every skill lives in its own repository. This one lists them and lets Claude Cod
 | [rust-code-style](https://github.com/byrodi/rust-code-style) | Official Rust Style Guide with rustfmt, Clippy workspace lints and the Rust API Guidelines |
 | [chrome-devtools](https://github.com/byrodi/chrome-devtools) | Drives a real Chrome through chrome-devtools-mcp when WebFetch cannot read a page |
 | [frontend-design](https://github.com/byrodi/frontend-design) | Light pink-plum design system with CSS tokens and an HTML starter |
+| [ui-gallery](https://github.com/byrodi/ui-gallery) | Shows every state of an app's UI on one page as live iframes over a fake backend |
 | [sketchdraw](https://github.com/byrodi/sketchdraw) | Hand-drawn Excalidraw-style diagrams and UI sketches from Mermaid and JSON, drawn by a CLI |
 | [humanizer](https://github.com/byrodi/humanizer) | Removes signs of AI writing and filler from Russian and English text |
 
@@ -39,7 +40,7 @@ Codex reads skills from `~/.agents/skills`. Clone the repositories and link each
 ```sh
 mkdir -p ~/IdeaProjects/skills ~/.agents/skills
 for s in github-publish project-docs minimal-code-discipline java-code-style \
-  typescript-code-style rust-code-style chrome-devtools frontend-design sketchdraw humanizer; do
+  typescript-code-style rust-code-style chrome-devtools frontend-design ui-gallery sketchdraw humanizer; do
   [ -d ~/IdeaProjects/skills/$s ] || git clone https://github.com/byrodi/$s ~/IdeaProjects/skills/$s
   ln -sfn ~/IdeaProjects/skills/$s/skills/$s ~/.agents/skills/$s
 done
