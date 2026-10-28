@@ -10,10 +10,8 @@ Every skill lives in its own repository. This one lists them and lets Claude Cod
 | --- | --- |
 | [github-publish](https://github.com/byrodi/github-publish) | Checks a project for leaked secrets, adds the missing repository files and publishes it on GitHub |
 | [project-docs](https://github.com/byrodi/project-docs) | Human-first project docs in `docs/` with sections and navigation, kept in sync with the code |
-| [minimal-code-discipline](https://github.com/byrodi/minimal-code-discipline) | Keeps code changes small, reuses what exists, prefers the standard library |
 | [java-code-style](https://github.com/byrodi/java-code-style) | Google Java Style with a Checkstyle config and design conventions |
 | [typescript-code-style](https://github.com/byrodi/typescript-code-style) | Google TypeScript Style with strict tsconfig, typescript-eslint and Prettier |
-| [rust-code-style](https://github.com/byrodi/rust-code-style) | Official Rust Style Guide with rustfmt, Clippy workspace lints and the Rust API Guidelines |
 | [chrome-devtools](https://github.com/byrodi/chrome-devtools) | Drives a real Chrome through chrome-devtools-mcp when WebFetch cannot read a page |
 | [frontend-design](https://github.com/byrodi/frontend-design) | Light pink-plum design system with CSS tokens and an HTML starter |
 | [ui-gallery](https://github.com/byrodi/ui-gallery) | Shows every state of an app's UI on one page as live iframes over a fake backend |
@@ -39,8 +37,8 @@ Codex reads skills from `~/.agents/skills`. Clone the repositories and link each
 
 ```sh
 mkdir -p ~/IdeaProjects/skills ~/.agents/skills
-for s in github-publish project-docs minimal-code-discipline java-code-style \
-  typescript-code-style rust-code-style chrome-devtools frontend-design ui-gallery sketchdraw humanizer; do
+for s in github-publish project-docs java-code-style typescript-code-style \
+  chrome-devtools frontend-design ui-gallery sketchdraw humanizer; do
   [ -d ~/IdeaProjects/skills/$s ] || git clone https://github.com/byrodi/$s ~/IdeaProjects/skills/$s
   ln -sfn ~/IdeaProjects/skills/$s/skills/$s ~/.agents/skills/$s
 done
